@@ -1,0 +1,25 @@
+{
+  "name": "dynathiai-mc-bots",
+  "version": "1.0.0",
+  "description": "Mineflayer bots voor DynathiAI en DynathiSMP, waaronder HouseBot.",
+  "main": "bots/housebot.js",
+  "scripts": {
+    "housebot": "node bots/housebot.js",
+    "start": "node bots/housebot.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "dynathiai",
+    "dynathismp",
+    "bot"
+  ],
+  "author": "Jv420",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mineflayer": "^4.23.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  }
+}
